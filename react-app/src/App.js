@@ -10,6 +10,8 @@ function App() {
     const title = textTitle.current.value;
     const color = hexColor.current.value;
     alert(`${title}, ${color}`);
+    textTitle.current.value = "";
+    hexColor.current.value = "";
   };
  
   return (
